@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page 180</title>
+        <style>
+            #parent {
+                position: relative;
+                width: 500px;
+                height: 300px;
+                margin: 50px auto;
+                border: 1px solid green;
+            }
+            #child {
+                position: absolute;
+                left: -75px;
+                
+                width: 50px;
+                height: 50px;
+                border: 1px solid red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="parent">
+            <div id="child"></div>
+            <div id="child" style="left: 525px"></div>
+        </div>    
+    </body>
+</html>
